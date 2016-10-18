@@ -4,3 +4,4 @@
 !*.sql
 !*.Rmd
 !*/ 
+.httr-oauth
