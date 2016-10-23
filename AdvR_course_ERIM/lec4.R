@@ -35,6 +35,9 @@ cubed <- function(x){
 }
 drawCurve(cubed,0,5,0.1)
 dev.off()                                                                  # clears last plot
-drawCurve(function(x) x^3, -10, 10, 0.1)                                   # simplified method of writing a func !!
+drawCurve(function(x) x^3, -10, 10, 0.1)                                   # simplified method of writing a function !!
 
-  
+# lambda function / anonymous function example
+(function(x) x * 10)(6)
+sqrt((function(x) x ^ 4)(3))  
+
